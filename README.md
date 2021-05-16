@@ -1,10 +1,8 @@
 # ACA-CSU_Approximate-Adders
 
-This is GitHub repository of MATLAB and HDL models of ACA-CSU approximate adders. 
+This is a GitHub repository of MATLAB and HDL models of ACA-CSU approximate adders. 
 
-## Performance matrices
-----
-
+## Performance Matrices
 
 |     Adder    | Error Rate |     NED     |     MRED    | Delay |    Area    |   Power  |
 |:------------:|:----------:|:-----------:|:-----------:|:-----:|:----------:|:--------:|
@@ -17,11 +15,11 @@ This is GitHub repository of MATLAB and HDL models of ACA-CSU approximate adders
 | [ACA-CSU_32_4](Verilog/aca_csu32_4.v) |   8.4845   | 0.015462372 | 0.001305994 |  0.55 | 298.451998 | 210.1809 |
 | [ACA-CSU_32_8](Verilog/aca_csu32_8.v) |   0.1967   | 0.000988836 |   5.37E-06  |  0.71 | 352.183999 | 254.6506 |
 
-- Naming convention: In ACA-CSU_N_M, N signifies bit length and M is the block size. i.e., for a 16-bit number and the block size of 2, ACA-CSU_16_2 adder should be used. 
-- In the Matlab code, K is the block size of CarryPredict. For comparison purpose M and K are kept same for the above table.
+- Naming convention: In ACA-CSU_N_M, N signifies bit length and M is the block size. i.e., for a 16-bit number and the block size of 2, ACA-CSU_16_2 adder should be used.
+- In the Matlab code, K is the block size of CarryPredict. For comparison purposes, M and K are kept same for the above table.
+- All the Verilog models are synthesized in Synopsys Design Compiler using Nangate Open Cell Library. 
 
 ## Reference
-----
 This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following paper:
 
 A. Kanani, J. Mehta and N. Goel, "ACA-CSU: A Carry Selection Based Accuracy Configurable Approximate Adder Design," 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 2020, pp. 434-439, doi: [10.1109/ISVLSI49217.2020.00085](https://doi.org/10.1109/ISVLSI49217.2020.00085) 
