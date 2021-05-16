@@ -1,10 +1,10 @@
 # ACA-CSU_Approximate-Adders
 
-This is a GitHub repository of MATLAB and HDL models of ACA-CSU approximate adders. 
+This is a GitHub repository for MATLAB and HDL models of ACA-CSU approximate adders. 
 
 ## Performance Matrices
 
-|     Adder    | Error Rate |     NED     |     MRED    | Delay |    Area    |   Power  |
+|     Adder    | Error Rate (%) |     NED     |     MRED    | Delay (μs) |    Area (μm<sup>2</sup>)    |   Power (μW)  |
 |:------------:|:----------:|:-----------:|:-----------:|:-----:|:----------:|:--------:|
 | [ACA-CSU_8_2](Verilog/aca_csu8_2.v) |   7.9021   |  0.0552865  | 0.017437931 |  0.38 |  61.977999 |  39.086  |
 | [ACA-CSU_8_4](Verilog/aca_csu8_4.v) |      0     |      0      |      0      |  0.49 |   62.244   |  43.6306 |
@@ -16,7 +16,7 @@ This is a GitHub repository of MATLAB and HDL models of ACA-CSU approximate adde
 | [ACA-CSU_32_8](Verilog/aca_csu32_8.v) |   0.1967   | 0.000988836 |   5.37E-06  |  0.71 | 352.183999 | 254.6506 |
 
 - Naming convention: In ACA-CSU_N_M, N signifies bit length and M is the block size. i.e., for a 16-bit number and the block size of 2, ACA-CSU_16_2 adder should be used.
-- In the Matlab code, K is the block size of CarryPredict. For comparison purposes, M and K are kept same for the above table.
+- In the Matlab code, K is the block size of CarryPredict. For comparison purposes, M and K are kept same in the above table.
 - All the Verilog models are synthesized in Synopsys Design Compiler using Nangate Open Cell Library. 
 
 ## Reference
