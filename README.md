@@ -2,7 +2,7 @@
 MATLAB and HDL models of ACA-CSU approximate adders
 
 
-| Adder        | Error Metrics |             |             | | Hardware Efficiency Metrics             |          | Code |
+| Adder        | Error Metrics|             |             | | Hardware Efficiency Metrics             |          | Code |
 |--------------|---------------|-------------|-------------|-----------------------------|------------|----------|------|
 |              | Error Rate    | NED         | MRED        | Delay                       | Area       | Power    |      |
 | ACA-CSU_8_2  | 7.9021        | 0.0552865   | 0.017437931 | 0.38                        | 61.977999  | 39.086   |      |
