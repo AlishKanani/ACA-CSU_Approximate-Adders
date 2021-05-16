@@ -4,7 +4,7 @@ This is a GitHub repository for MATLAB and HDL models of ACA-CSU approximate add
 
 ## Performance Matrices
 
-|     Adder    | Error Rate (%) |     NED     |     MRED    | Delay (μs) |    Area (μm<sup>2</sup>)    |   Power (μW)  |
+|     Adder    | Error Rate (%) |     NED     |     MRED    | Delay (ns) |    Area (μm<sup>2</sup>)    |   Power (μW)  |
 |:------------:|:----------:|:-----------:|:-----------:|:-----:|:----------:|:--------:|
 | [ACA-CSU_8_2](Verilog/aca_csu8_2.v) |   7.9021   |  0.0552865  | 0.017437931 |  0.38 |  61.977999 |  39.086  |
 | [ACA-CSU_8_4](Verilog/aca_csu8_4.v) |      0     |      0      |      0      |  0.49 |   62.244   |  43.6306 |
