@@ -16,7 +16,7 @@ This is a GitHub repository for MATLAB and HDL models of ACA-CSU approximate add
 | [ACA-CSU_32_8](Verilog/aca_csu32_8.v) |   0.1967   | 0.000988836 |   5.37E-06  |  0.71 | 352.183999 | 254.6506 |
 
 - Naming convention: In ACA-CSU_N_M, N signifies bit length and M is the block size. i.e., for a 16-bit number and the block size of 2, ACA-CSU_16_2 adder should be used.
-- In the Matlab code, K is the block size of CarryPredict. For comparison purposes, M and K are kept same in the above table.
+- In the MATLAB code, K is the block size of CarryPredict. For comparison purposes, M and K are kept same in the above table.
 - All the Verilog models are synthesized in Synopsys Design Compiler using Nangate Open Cell Library. 
 - All the result shown in the above table are compiled for most inaccurate configuration of ACA-CSU, i.e., all the control bits are 0.
 
