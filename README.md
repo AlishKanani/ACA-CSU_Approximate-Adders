@@ -1,4 +1,4 @@
-# ACA-CSU_Approximate-Adders
+# ACA-CSU Approximate Adders
 
 This is a GitHub repository for MATLAB and HDL models of ACA-CSU approximate adders. 
 
