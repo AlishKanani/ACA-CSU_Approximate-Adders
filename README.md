@@ -21,7 +21,7 @@ This is a GitHub repository for MATLAB and HDL models of ACA-CSU approximate add
 - All the result shown in the above table are compiled for most inaccurate configuration of ACA-CSU, i.e., all the control bits are 0.
 
 ## Reference
-This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following paper:
+This library is licenced under [MIT licence](LICENCE.md). If you use the library in your research, please refer the following [paper](ACA-CSU_manuscript.pdf):
 
 A. Kanani, J. Mehta and N. Goel, "ACA-CSU: A Carry Selection Based Accuracy Configurable Approximate Adder Design," 2020 IEEE Computer Society Annual Symposium on VLSI (ISVLSI), 2020, pp. 434-439, doi: [10.1109/ISVLSI49217.2020.00085](https://doi.org/10.1109/ISVLSI49217.2020.00085) 
 ```bibtex
